@@ -8,5 +8,5 @@ Team Project with Ajax/nodejs of WEBUI group students - Oleksandr Filippov and D
 
 2. Based on NodeJS technology, create a local http-server that will serve the users.json file. The server must be able to read the users.json file on the appropriate http request. For example, you can use node-static or http-server modules to implement a static server.
 
-![alt text](https://github.com/filiczini/repWebui-ajax-nodejs/blob/main/Picture1.png)
-![alt text](https://github.com/filiczini/repWebui-ajax-nodejs/blob/main/Picture2.png)
+!(https://github.com/Filiczini/Webui-ajax-nodejs/blob/main/img/Picture1.png)
+!(https://github.com/Filiczini/Webui-ajax-nodejs/blob/main/img/Picture2.png)
