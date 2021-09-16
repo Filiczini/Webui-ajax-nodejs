@@ -7,8 +7,8 @@ const PORT = 3000;
 
 app.set("view-engine", "ejs");
 app.use(express.static("styles"));
+
 const createEjsPath = (page) => path.resolve(__dirname, "views", `${page}`);
-const createAssetsPath = (page) => path.resolve(__dirname, "assets", `${page}`);
 
 app.get("/", (req, res) => {
   res.render(createEjsPath("index.ejs"), { data: data });
