@@ -1,12 +1,10 @@
 const express = require("express");
 const path = require("path");
-const data = require("../nodejs-lessons/assets/users.json");
-
+const data = require("./users.json");
 const app = express();
-const PORT = 3000;
+const PORT = 3050;
 
 app.set("view-engine", "ejs");
-app.use(express.static("styles"));
 
 const createEjsPath = (page) => path.resolve(__dirname, "views", `${page}`);
 
@@ -16,8 +14,4 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
-});
-
-app.use((req, res) => {
-  res.status(404).send("what a heck ?");
 });
